@@ -1,0 +1,222 @@
+* {     box-sizing: border-box;
+}
+html, body {
+ margin: 0;
+ padding: 0;
+ color:#cc0000;
+ font-family:papyrus;
+ background-color:gainsboro;
+
+ }
+ 
+a{
+ 	 target:_blank;
+ 	}
+ 
+h2 {
+ 	font-size: 200%; 
+ 	color: black;
+ 	background-color:grey; 
+	padding: 6px;
+	border-bottom:1px slategrey;
+	float:left;
+	width:50%;
+	margin:10px 0px;
+	height:60px;
+	border-top:2px solid black;
+ 	}
+ 
+.clear-float {
+	clear:both;
+	}
+ 
+.topbar {
+	position:fixed; 
+	width:100%;
+	padding:20px;
+	background-color:white;
+	top:0;
+	border-bottom:50px solid gainsboro;
+ }
+ 
+
+.title {
+	margin:10px  auto ;
+	padding:20px;
+	border-bottom:10px solid slategrey;
+	border-left:10px solid slategrey;
+	border-top:10px solid black;
+	border-right:10px solid black;
+	width:100%;
+	text-align:center;
+	font-size: 200%; 
+ 	color: black;
+	}
+	
+
+
+.navigation {
+	width:100%;
+	text-align:center;
+	padding:0;
+	margin-bottom:0;
+	}
+
+.navigation-button {
+	display: inline-block;
+	background-color: #cc0000;
+	width:15%;
+	padding:5px 0px;
+  	margin:0 3%;
+	border-top:2px solid black;
+	border-right:2px solid black;
+	text-align:center;
+}
+
+.navigation-button-link:hover {
+	color:white;
+	font-weight:bold;
+	}
+.navigation-button-link{	
+	text-decoration:none;
+	color:black;
+	}
+	
+	
+.article{
+	background-color:white; 
+	padding:260px 10px 10px 10px;
+	margin-left:50px;
+	margin-right:50px;
+
+	}
+	
+.article-left,
+.article-right{
+	display:inline-block;
+	vertical-align: top;
+	margin-top:20px;
+	}
+	
+.article-left{
+	background-color:white; 
+	width:20%;
+	padding:2%;
+	margin-left:3%;
+	margin-right:4%;
+	top:100px;
+
+	}
+.article-right{
+	background-color:white; 
+	width: 60%;
+	padding:2%;
+	margin-right:4%;
+	top:100px;
+
+	}
+.article-jasper{
+	background-color:#161316; 
+	padding:2px 5px;
+	margin:5px;
+	font-size:0.85em;
+	}
+.jasper-float {
+	background-image: url(jasper.png);
+	float:right;
+	background-size: contain;
+	background-repeat:no-repeat;
+	width: 20%;
+	height:100px;
+}
+	
+.background-arbres-oreilles {
+	background-image: url(arbres-oreilles.png);
+	background-position:center;
+	background-size: contain;
+	background-repeat:no-repeat;
+	margin:0 auto;
+	width: 100%;
+	height:600px;
+	position:absolute;
+	bottom: 0;
+}
+
+.background-jasper {
+	background-image: url(jasper.png);
+	background-position:right;
+	background-color: #161316;
+	background-size: contain;
+	background-repeat:no-repeat;
+	margin:0 auto 20px auto;
+	width: 100%;
+	height:100px;
+	position:fixed;
+	top: 0;
+}
+
+.background-vine {
+	background-image: url(vigne.png);
+	background-repeat: repeat-x;
+	background-size: contain;
+	height: 100px;
+	width: 100%;
+	position:fixed;
+	bottom: 0;
+}
+
+.background-vine-article {
+	background-image: url(vigne.png);
+	background-repeat: repeat-x;
+	background-size: contain;
+	height: 100px;
+	width: 100%;
+}	
+	
+.haut-button {
+	float:right;
+	text-align:right;
+	background-color:grey;
+	width:50%;
+	margin:10px 0px;
+	height:60px;
+	padding:5px;
+	border-top:2px solid black;
+	border-right:2px solid black;
+	}
+	
+.haut-button-link:hover {
+	color:white;
+	font-weight:bold;
+	}
+.haut-button-link{	
+	text-decoration:none;
+	color:grey;
+	}
+
+.bottom-page {
+	background-color:white;
+	height: 70px;
+	position:fixed; 
+	bottom:0;
+	width:100%;
+	padding:10px 50px;
+	}
+	
+.table-style{
+	margin:0 auto;
+	width:50%;
+	padding-bottom:20px;
+	text-align:center;
+	}
+	
+.table-link:hover {
+	color:black;
+	font-weight:bold;
+	}
+.table-link{	
+	text-decoration:none;
+	color:#cc0000;
+	}
+
+	
